@@ -34,6 +34,10 @@ $(call inherit-product, vendor/dot/config/common.mk)
 # Maintainer flag for dotOS
 DEVICE_MAINTAINER := ios7jbpro
 
+# Specify that the build will be done with GApps and arch will be ARM64
+WITH_GMS := true
+TARGET_GAPPS_ARCH := arm64
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
 PRODUCT_NAME := dot_begonia

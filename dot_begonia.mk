@@ -31,6 +31,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORT := true
 $(call inherit-product, vendor/dot/config/common.mk)
 
+# Maintainer flag for dotOS
+DEVICE_MAINTAINER := ios7jbpro
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
 PRODUCT_NAME := dot_begonia

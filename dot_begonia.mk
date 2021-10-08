@@ -29,14 +29,14 @@ $(call inherit-product, device/redmi/begonia/device.mk)
 # Inherit from our custom product configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORT := true
-$(call inherit-product, vendor/romname/config/common.mk)
+$(call inherit-product, vendor/xtended/config/common.mk)
 
 # Maintainer flag
-DEVICE_MAINTAINER := ios7jbpro
+DEVICE_MAINTAINER := Noturno
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := romname_begonia
+PRODUCT_NAME := xtended_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
